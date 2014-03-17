@@ -3,19 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Asoul Hand</title>
-    <link rel="stylesheet" href="keyboard.css">
+    <link rel="stylesheet" href="./css/asoul-hand.css">
 </head>
-<body>
-<div id="container">
-    <canvas id="myCanvas" width="980" height="551">
-            Sorry, your browser is not supported.
-        </canvas>
-        
-<img src="img/IMG_2008.JPG" alt="">
-</div>
+<body onSelectStart="event.returnValue=false">
+	<div id="container">
+    <div class="alphabets">
+      <div class="alphabet" id="alphabet0">A</div>
+      <div class="alphabet" id="alphabet1">B</div>
+      <div class="alphabet" id="alphabet2">C</div>
+      <div class="alphabet" id="alphabet3">D</div>
+      <div class="alphabet" id="alphabet4">E</div>
+      <div class="alphabet" id="alphabet5">F</div>
+      <div class="alphabet" id="alphabet6">G</div>
+      <div class="alphabet" id="alphabet7">H</div>
+      <div class="alphabet" id="alphabet8">I</div>
+      <div class="alphabet" id="alphabet9">J</div>
+      <div class="alphabet" id="alphabet10">K</div>
+      <div class="alphabet" id="alphabet11">L</div>
+      <div class="alphabet" id="alphabet12">M</div>
+      <div class="alphabet" id="alphabet13">N</div>
+      <div class="alphabet" id="alphabet14">O</div>
+      <div class="alphabet" id="alphabet15">P</div>
+      <div class="alphabet" id="alphabet16">Q</div>
+      <div class="alphabet" id="alphabet17">R</div>
+      <div class="alphabet" id="alphabet18">S</div>
+      <div class="alphabet" id="alphabet19">T</div>
+      <div class="alphabet" id="alphabet20">U</div>
+      <div class="alphabet" id="alphabet21">V</div>
+      <div class="alphabet" id="alphabet22">W</div>
+      <div class="alphabet" id="alphabet23">X</div>
+      <div class="alphabet" id="alphabet24">Y</div>
+      <div class="alphabet" id="alphabet25">Z</div>
+    </div>
+		<img src="./img/hand.png" id="hand">
+	</div>
 
-
-<script type="text/javascript" src="rhill-voronoi-core.min.js"></script>
-<script src="keyboard.js"></script>
+	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="./js/asoul-hand.js"></script>
 </body>
 </html>
